@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div id="carousel" class="carousel">
+
+    <ul id="slides-container" class="slides">
+      <li class="slide active" style="background-image: url(assets/img/derev.jpg);"></li>
+      <li class="slide" style="background-image: url(assets/img/derevia.jpg);"></li>
+      <li class="slide" style="background-image: url(assets/img/derevo.jpg);"></li>
+      <li class="slide" style="background-image: url(assets/img/ozero.jpg);"></li>
+      <li class="slide" style="background-image: url(assets/img/vetka.jpg);"></li>
+    </ul>
+
+    <div id="controls-container" class="controls">
+      <span class="control control-pause" id="pause">&#9613;&#9613;</span>      
+      <span class="control control-prev" id="prev">&lt;</span>
+      <span class="control control-next" id="next">&gt;</span>
+    </div>
+  
+
+    <div id="indicators-container" class="indicators">
+      <span class="indicator active" data-slide-to="0"></span>
+      <span class="indicator" data-slide-to="1"></span>
+      <span class="indicator" data-slide-to="2"></span>
+      <span class="indicator" data-slide-to="3"></span>
+      <span class="indicator" data-slide-to="4"></span>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
